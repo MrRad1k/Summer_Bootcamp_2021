@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SummerBootCampTask2.Contexts.BootCampDbContext">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAABACAAAAAAEAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Contexts\BootCampDbContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SummerBootCampTask2.Controllers.AccountController">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAIAAAABAAAAAAEQAAAAAAA=</HashCode>
+      <FileName>Controllers\AccountController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SummerBootCampTask2.Controllers.ChatController">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAASAAAAQAAAAAEAAAAAEAAAEAAAA=</HashCode>
+      <FileName>Controllers\ChatController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SummerBootCampTask2.Controllers.FriendController">
+    <Position X="2" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAEAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\FriendController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SummerBootCampTask2.Controllers.HomeController">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAQAAAAAAAAAAAQAAAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\HomeController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SummerBootCampTask2.Controllers.InvitationController">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\InvitationController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SummerBootCampTask2.Controllers.MessageController">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAEAAAACAAAAAAEAAAA=</HashCode>
+      <FileName>Controllers\MessageController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SummerBootCampTask2.Controllers.UserController">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAABAAQAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\UserController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SummerBootCampTask2.Controllers.FriendsViewModel">
+    <Position X="6.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Models\FriendsViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SummerBootCampTask2.CoreModels.Chat">
+    <Position X="9.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAABAAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>CoreModels\Chat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SummerBootCampTask2.CoreModels.Message">
+    <Position X="3.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAQAAAAAAAAAAAAAAAAgAABABAAAAAAAAAAAAQ=</HashCode>
+      <FileName>CoreModels\Message.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SummerBootCampTask2.CoreModels.User">
+    <Position X="5.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAACAAAAQAAAAAAAAAAAAAAAAKAQAAQAAAAAA=</HashCode>
+      <FileName>CoreModels\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SummerBootCampTask2.CoreModels.UserFriend">
+    <Position X="8.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAEAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CoreModels\UserFriend.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SummerBootCampTask2.Models.AccountViewModel">
+    <Position X="9.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAKAQAAQAAAAAA=</HashCode>
+      <FileName>Models\AccountViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SummerBootCampTask2.Models.ChatViewModel">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAEAAAAAAAAAABAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Models\ChatViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SummerBootCampTask2.Models.ConfirmRequestViewModel">
+    <Position X="11" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Models\ConfirmRequestViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SummerBootCampTask2.Models.EditMessageViewModel">
+    <Position X="12.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Models\EditMessageViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SummerBootCampTask2.Models.ErrorViewModel">
+    <Position X="8" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ErrorViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SummerBootCampTask2.Models.LoginViewModel">
+    <Position X="12.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Models\LoginViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SummerBootCampTask2.Models.MessageViewModel">
+    <Position X="3.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAIAAIAAA=</HashCode>
+      <FileName>Models\MessageViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SummerBootCampTask2.Models.ParticipantViewModel">
+    <Position X="5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Models\ParticipantViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SummerBootCampTask2.Models.RegisterViewModel">
+    <Position X="2" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAACAQAAAAAAIAA=</HashCode>
+      <FileName>Models\RegisterViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SummerBootCampTask2.Services.EncryptionService" BaseTypeListCollapsed="true">
+    <Position X="2" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Services\EncryptionService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SummerBootCampTask2.Program">
+    <Position X="11.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SummerBootCampTask2.Startup">
+    <Position X="6.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAgAAACAAAAAA=</HashCode>
+      <FileName>Startup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="SummerBootCampTask2.Services.IEncryptionService">
+    <Position X="0.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\IEncryptionService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

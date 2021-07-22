@@ -1,0 +1,55 @@
+﻿@model SummerBootCampTask2.Models.AccountViewModel
+
+@{ ViewData["Title"] = "Settings"; }
+
+<div>
+    <h2>Settings</h2>
+    <h4>Identifier : @Html.DisplayFor(x => Model.Identifier)</h4>
+
+
+    <form asp-action="Index" asp-controller="Account">
+        <div class="form-group">
+            <label asp-for="UserName">UserName</label>
+            <input type="text" asp-for="UserName" />
+            <span asp-validation-for="UserName"></span>
+        </div>
+
+        <div class="form-group">
+            <label class="email-style" asp-for="Email">Email</label>
+            <input type="email" asp-for="Email" />
+            <span asp-validation-for="Email"></span>
+        </div>
+
+        <div class="form-group">
+            <label class="password-style" asp-for="Password">Password</label>
+            <input type="password" asp-for="Password" />
+            <span asp-validation-for="Password"></span>
+        </div>
+
+        <div class="form-group">
+            <div class="form-group">
+                <input type="checkbox" asp-for="Visible">
+                <label>Visible</label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <input type="submit" value="Save" class="btn btn-outline-dark" />
+        </div>
+    </form>
+</div>
+
+
+<style>
+    .password-style {
+        padding-right: 6px;
+    }
+
+    .email-style {
+        padding-right: 35px
+    }
+</style>
+
+@section Scripts {
+    @{ await Html.RenderPartialAsync("_ValidationScriptsPartial"); }
+}
